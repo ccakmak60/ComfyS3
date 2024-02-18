@@ -1,7 +1,7 @@
 from ..client_s3 import get_s3_instance
 S3_INSTANCE = get_s3_instance()
 
-class CheckpointLoaderFromS3:
+class CheckpointLoaderS3:
     @classmethod
     def INPUT_TYPES(s):
         # Assuming `get_files` lists checkpoint files in the S3 'checkpoints' directory
