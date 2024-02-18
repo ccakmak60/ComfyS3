@@ -3,7 +3,8 @@ from .nodes.save_image_s3 import SaveImageS3
 from .nodes.save_video_files_s3 import SaveVideoFilesS3
 from .nodes.download_file_s3 import DownloadFileS3
 from .nodes.upload_file_s3 import UploadFileS3
-from .nodes.download_checkpoint_s3 import DownloadCheckpointS3
+from .nodes.checkpoint_loader import CheckpointLoader
+
 
 
 
