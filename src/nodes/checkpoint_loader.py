@@ -4,7 +4,7 @@ S3_INSTANCE = get_s3_instance()
 from ..client_s3 import get_s3_instance
 S3_INSTANCE = get_s3_instance()
 
-class CheckpointLoaderFromS3:
+class DownloadCheckpointS3:
     @classmethod
     def INPUT_TYPES(s):
         return {
