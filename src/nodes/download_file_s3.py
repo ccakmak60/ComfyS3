@@ -15,7 +15,7 @@ class DownloadFileS3:
     CATEGORY = "ComfyS3"
     INPUT_NODE = True
     OUTPUT_NODE = True
-    RETURN_TYPES = ("MODEL", "CLIP")
+    RETURN_TYPES = (folder_paths.get_filename_list("checkpoints"), )
     RETURN_NAMES = ("local_path",)
     FUNCTION = "download_file_s3"
     
